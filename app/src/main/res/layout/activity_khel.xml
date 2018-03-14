@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+
+        
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="play"/>
+            <Button
+                android:id="@+id/hangman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hangman"/>
+
+
+            <Button
+                android:id="@+id/tictactoe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TicTacToe"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/one"
+                    android:layout_width="0dp"
+
+                    android:layout_height="200dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/sumit"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/two"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/pasang" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/three"
+                    android:layout_width="0dp"
+
+                    android:layout_height="200dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/aju"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/four"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/bibek"
+                    />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/five"
+                    android:layout_width="0dp"
+
+                    android:layout_height="200dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/samrat"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/six"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/play" />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

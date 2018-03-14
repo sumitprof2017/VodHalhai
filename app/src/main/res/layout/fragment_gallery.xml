@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <ImageView
+      android:id="@+id/fragment_gallery_one"
+      android:layout_width="200dp"
+      android:layout_height="200dp"
+      android:src="@drawable/sumit"
+
+      />
+    <ImageView
+        android:id="@+id/fragment_gallery_two"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/sumit"
+        android:layout_toRightOf="@+id/fragment_gallery_one"
+        />
+    <ImageView
+        android:id="@+id/fragment_gallery_three"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/sumit"
+        android:layout_below="@+id/fragment_gallery_one"
+
+        />
+    <ImageView
+        android:id="@+id/fragment_gallery_four"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/sumit"
+        android:layout_toRightOf="@+id/fragment_gallery_three"
+        android:layout_below="@+id/fragment_gallery_two"
+
+
+        />
+
+
+
+</RelativeLayout>
